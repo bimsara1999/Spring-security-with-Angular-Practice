@@ -15,6 +15,6 @@ public class ProjectSecurityConfig {
                // .anyRequest("/my-notices").permitAll()
                // .and().formLogin().and().httpBasic();
 
-
+return http.build();
     }
 }
