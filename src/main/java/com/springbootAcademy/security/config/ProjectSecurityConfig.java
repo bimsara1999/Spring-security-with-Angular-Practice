@@ -20,7 +20,9 @@ public class ProjectSecurityConfig {
 
     @Bean
     SecurityFilterChain defaultSecurityFilterChain(HttpSecurity http) throws Exception {
-        http.authorizeRequests();
+
+      //  http.csrf().and().cors().disable()
+             //   authorizeRequests();
                // .anyRequest("api/v1/account/my-account" , "api/v1/loan/my-loan").authenticated()
               //  .anyRequest("api/v1/notice/my-notices").permitAll()
                // .and().formLogin().and().httpBasic();
